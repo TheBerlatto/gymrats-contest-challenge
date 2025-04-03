@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="container mx-auto p-6 text-center">
-      <h1 className="text-5xl font-extrabold text-green-700 mb-6">💪 Desafio GymRats – Contestação no Foco!</h1>
       <p className="text-xl text-gray-700 mb-4">
         Você está pronto para testar sua disciplina e competir com seus amigos para ver quem mantém a rotina mais regrada nos próximos <strong>60 dias</strong>?
       </p>
@@ -26,7 +25,7 @@ const Home = () => {
         <li>Registre suas atividades diárias no aplicativo GymRats.</li>
         <li>Acumule pontos a cada treino, alimentação saudável e outros hábitos positivos.</li>
         <li>Acompanhe sua evolução no ranking e dispute a liderança com seus amigos.</li>
-        <li>Ao final dos 60 dias, o <strong>primeiro colocado</strong> leva R$ 400!</li>
+        <li>Ao final dos 60 dias, os <strong>3 primeiros colocados</strong> levam R$ 200, R$ 120 e R$ 80, respectivamente.</li>
       </ul>
       
       <h2 className="text-3xl font-bold text-gray-800 mt-10">🚀 Pronto para Começar?</h2>

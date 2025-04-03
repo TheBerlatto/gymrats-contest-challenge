@@ -26,7 +26,7 @@ const Rules = () => {
         <li>✅ <strong>Aeróbica</strong> → 2 pontos a cada 5 minutos</li>
         <li>✅ <strong>Suplementação</strong> → 5 pontos</li>
         <li>✅ <strong>Fruta</strong> → 1 ponto</li>
-        <li>✅ <strong>Esporte (ex. Natação, Futebol, Vôlei)</strong> → 10 ponto</li>
+        <li>✅ <strong>Esporte (ex. Natação, Futebol, Vôlei)</strong> → 10 pontos</li>
       </ul>
       <p className="text-lg text-gray-600 mt-2">📌 <strong>Obs.:</strong> Qualquer atividade não registrada corretamente no app não contará pontos.</p>
 
@@ -39,7 +39,7 @@ const Rules = () => {
       </ul>
 
       <h2 className="text-2xl font-semibold text-gray-800 mt-6">🎯 Premiação</h2>
-      <p className="text-lg text-gray-600">No final dos 60 dias, o <strong>participante com maior pontuação</strong> ganhará <strong>R$ 400</strong>!</p>
+      <p className="text-lg text-gray-600">No final dos 60 dias, os <strong>3 participantes com maior pontuação</strong> ganharão <strong>R$ 200, R$ 120 e R$ 80, respectivamente.</strong>!</p>
 
       <p className="text-xl font-bold text-gray-800 mt-6">🚀 Está pronto para desafiar seus limites? Então bora pra cima!</p>
     </div>

@@ -9,16 +9,35 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
-        <header className="bg-green-600 text-white p-4 text-center">
-          <h1 className="text-4xl font-bold text-white-800 mb-4">Desafio - Contestação no Foco | Gymrats</h1>
-          <nav>
-            <Link to="/" className="mr-4">Início</Link>
-            <Link to="/about" className="mr-4">Sobre</Link>
-            <Link to="/rules">Regras</Link>
-          </nav>
+        <header className="bg-[#005C53] text-white p-3 text-center">
+          <h1 className="text-4xl md:text-6xl text-center text-white mt-8 mb-6">
+            Desafio GymRats | Contestação 💪
+          </h1>
+          <div className="flex justify-center mt-4">
+            <nav className="flex justify-center space-x-4 p-4">
+              <Link
+                to="/"
+                className="px-6 py-2 text-white bg-[#9FC131] hover:bg-[#DBF227] rounded-lg transition duration-300"
+              >
+                Início
+              </Link>
+              <Link
+                to="/about"
+                className="px-6 py-2 text-white bg-[#9FC131] hover:bg-[#DBF227] rounded-lg transition duration-300"
+              >
+                Sobre
+              </Link>
+              <Link
+                to="/rules"
+                className="px-6 py-2 text-white bg-[#9FC131] hover:bg-[#DBF227] rounded-lg transition duration-300"
+              >
+                Regras
+              </Link>
+            </nav>
+          </div>
         </header>
         <main className="flex-grow p-4">
-          
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
